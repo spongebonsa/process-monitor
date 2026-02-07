@@ -1,0 +1,3 @@
+/home/bonsa/process-monitor/build/CMakeFiles/process_monitor.dir
+/home/bonsa/process-monitor/build/CMakeFiles/edit_cache.dir
+/home/bonsa/process-monitor/build/CMakeFiles/rebuild_cache.dir

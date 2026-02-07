@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/bonsa/process-monitor/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
