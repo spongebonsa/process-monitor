@@ -75,10 +75,8 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o: /home/bonsa/process-monitor/src/m
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
-  /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
@@ -136,21 +134,17 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o: /home/bonsa/process-monitor/src/m
   /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
   /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
@@ -190,8 +184,6 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o: /home/bonsa/process-monitor/src/m
   /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/new \
   /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/pstl/execution_defs.h \
-  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/sstream \
@@ -278,19 +270,7 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/lib/libm.so.6:
 
-/usr/lib/libc_nonshared.a:
-
-/usr/lib/libc.so.6:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/usr/lib/libncursesw.so:
+/usr/include/asm-generic/errno.h:
 
 /usr/include/c++/15.2.1/bits/postypes.h:
 
@@ -309,6 +289,8 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/bits/memoryfwd.h:
 
 /usr/include/bits/types/wint_t.h:
+
+/usr/include/c++/15.2.1/cwchar:
 
 /usr/include/c++/15.2.1/bits/locale_conv.h:
 
@@ -358,15 +340,11 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/asm/bitsperlong.h:
 
-/usr/include/c++/15.2.1/algorithm:
-
 /usr/include/c++/15.2.1/bits/hash_bytes.h:
 
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/sys/types.h:
-
-/usr/include/c++/15.2.1/bits/algorithmfwd.h:
 
 /usr/include/bits/timesize.h:
 
@@ -472,6 +450,8 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/cstdio:
 
+/usr/lib/ld-linux-x86-64.so.2:
+
 /usr/include/c++/15.2.1/bits/char_traits.h:
 
 /home/bonsa/process-monitor/src/main.cpp:
@@ -486,6 +466,8 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/bits/basic_ios.h:
 
+/usr/lib/libc_nonshared.a:
+
 /usr/include/c++/15.2.1/bits/allocated_ptr.h:
 
 /usr/include/c++/15.2.1/cwctype:
@@ -496,19 +478,11 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/bits/types/__fpos_t.h:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/15.2.1/bits/quoted_string.h:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/c++/15.2.1/bits/locale_classes.tcc:
-
-/usr/include/c++/15.2.1/bits/stl_tempbuf.h:
 
 /usr/include/stdc-predef.h:
 
@@ -560,6 +534,10 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/bits/types/time_t.h:
 
+/usr/include/c++/15.2.1/bits/range_access.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
 /usr/include/c++/15.2.1/ios:
 
 /usr/include/bits/thread-shared-types.h:
@@ -590,17 +568,11 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/c++/15.2.1/pstl/execution_defs.h:
-
 /usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/types/clockid_t.h:
 
 /usr/include/asm/types.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/15.2.1/bits/range_access.h:
 
 /usr/include/c++/15.2.1/bits/refwrap.h:
 
@@ -619,14 +591,6 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 /usr/include/bits/typesizes.h:
 
 /usr/include/c++/15.2.1/bits/string_view.tcc:
-
-/usr/lib/libstdc++.so:
-
-/usr/include/locale.h:
-
-/usr/include/c++/15.2.1/cwchar:
-
-/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
 
 /usr/include/c++/15.2.1/bits/unique_ptr.h:
 
@@ -662,11 +626,7 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/asm-generic/types.h:
 
-/usr/include/c++/15.2.1/bits/stl_heap.h:
-
 /usr/include/c++/15.2.1/exception:
-
-/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/15.2.1/tuple:
 
@@ -744,6 +704,10 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
+/usr/include/c++/15.2.1/bits/quoted_string.h:
+
+/usr/include/features-time64.h:
+
 /usr/include/bits/endianness.h:
 
 /usr/include/libintl.h:
@@ -765,8 +729,6 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 /usr/include/linux/sched/types.h:
 
 /usr/include/linux/stddef.h:
-
-/usr/include/c++/15.2.1/bits/stl_algo.h:
 
 /usr/include/pthread.h:
 
@@ -807,3 +769,17 @@ CMakeFiles/process_monitor.dir/src/main.cpp.o:
 /usr/lib/libgcc_s.so.1:
 
 /usr/lib/libm.so:
+
+/usr/lib/libncursesw.so:
+
+/usr/include/locale.h:
+
+/usr/lib/libstdc++.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+
+/usr/lib/libc.so.6:
