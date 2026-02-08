@@ -2,39 +2,49 @@
 #include <filesystem>
 #include <fstream>
 #include <string>
-#include <algorithm>
 #include <cctype>
 
-bool is_pid_folder(const std::string& name){
-  return std::all_of(name.begin(), name.end(), [](unsigned char c){
-      return std::isdigit(c);
-      });
+bool isPidDirectory(const std::string& name){
+  for(char c : name){
+    if(!std::isdigit(static_cast<unsigned char > (c))){
+      return false;
+    }
+  }
+  return true;
 }
 
-std::string get_processed_name(const std::string& pid){
-  std::string path = "/proc/" + pid + "/comm";
-  std::ifstream file(path);
-  std::string name;
+std::string getProcessName(const std::string& pid){
+  std::string path{};
+  path = "/proc/" + pid + "/comm";
+
+  std::ifstream file{path};
+  std::string name{};
+
   if(file.is_open()){
     std::getline(file, name);
-  }
+  } 
   return name;
 }
 
 int main(){
+  std::string procPath{};
+  procPath = "/proc";
 
-  const std::string proc_path = "/proc";
-  for (const auto& entry : std::filesystem::directory_iterator(proc_path)){
-    if(!entry.is_directory()) continue;
+  for(const auto& entry : std::filesystem::directory_iterator(procPath)){
+    if(!entry.is_directory()){
+      continue;
+    }
+    std::string pidStr{};
+    pidStr = entry.path().filename().string();
 
-    std::string pid_str =  entry.path().filename().string();
+    if(!isPidDirectory(pidStr)){
+      continue;
+    }
+    std::string processName{};
+    processName = getProcessName(pidStr);
 
-    if(!is_pid_folder(pid_str)) continue;
-
-    std::string process_name = get_processed_name(pid_str);
-
-    if(!process_name.empty()){
-      std::cout << "PID: " << pid_str << " | Name: " << process_name <<'\n';
+    if(!processName.empty()){
+      std::cout << "PID: " << pidStr << " | Name: " << processName << '\n';
     }
   }
   return 0;
